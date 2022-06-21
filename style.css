@@ -1,0 +1,46 @@
+/* ==UserStyle==
+@name           Readable Hackerone reports
+@namespace      github.com/itsignacioportal/userstyle-hackerone-readable-reports
+@version        1.0.0
+@description    Readable Hackerone reports
+@author         ItsIgnacioPortal
+==/UserStyle== */
+
+@-moz-document domain("hackerone.com") {
+    /* Insert code here... */
+    div.topbar-signed-out__wrapper, div.topbar-signed-out__spacer{
+        height: 9%;
+        margin-bottom: initial;
+    }
+    
+    div.sc-gsnTZi.ZeNbI{
+        margin-top: 3%;
+    }
+    
+    div.drawer-content.drawer-soft-shadow.drawer-relative-to-parent {
+        margin-top: 4.8%;
+    }
+    
+    span.spec-amount-in-currency {
+        font-size: 140%;
+        color: #4dff4d;
+    }
+    
+    div.topbar-signed-out__container{
+        max-width: initial;
+        padding: initial;
+    }
+    
+    div.topbar-signed-out__brand > a {
+        width: 75%;
+        align-self: center;
+    }
+    
+    nav.topbar-signed-out__action-bar{
+        height: initial;
+    }
+    
+    div.topbar-signed-out__content {
+        flex-direction: initial;
+    }
+}
